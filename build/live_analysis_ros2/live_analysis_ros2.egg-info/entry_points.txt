@@ -1,0 +1,2 @@
+[console_scripts]
+analysis_node = live_analysis_ros2.analysis_node:main

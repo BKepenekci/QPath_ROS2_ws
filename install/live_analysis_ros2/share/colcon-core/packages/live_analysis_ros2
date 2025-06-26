@@ -1,0 +1,1 @@
+builtin_interfaces:cv_bridge:python3-opencv:python3-pillow:python3-torch:python3-torchvision:python3-ultralytics:rclpy:rosidl_default_runtime:sensor_msgs:std_msgs
