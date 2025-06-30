@@ -24,7 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'analysis_node = live_analysis_ros2.analysis_node:main'
+            'analysis_node = live_analysis_ros2.analysis_node:main',
+            'training_node = live_analysis_ros2.training_node:main',
         ],
     },
 )

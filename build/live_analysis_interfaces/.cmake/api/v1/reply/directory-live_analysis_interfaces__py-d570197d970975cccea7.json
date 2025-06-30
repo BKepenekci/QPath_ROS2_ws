@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "live_analysis_interfaces__py",
+		"source" : "/home/burcu/ros2_ws/build/live_analysis_interfaces/live_analysis_interfaces__py"
+	}
+}

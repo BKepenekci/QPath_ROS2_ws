@@ -1,0 +1,13 @@
+std_msgs/Header header
+string id
+string model_name
+string model_id
+float32 total_time
+int32 total_train_imgs
+int32 total_eval_imgs
+float32 m_ap
+float32 duration
+string model_path
+bool training_completed
+int32 epoc
+int32 current_epoc

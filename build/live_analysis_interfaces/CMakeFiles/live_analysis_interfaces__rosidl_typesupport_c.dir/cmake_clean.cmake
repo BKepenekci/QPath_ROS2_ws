@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/test_model_msg__type_support.cpp.o"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/test_model_msg__type_support.cpp.o.d"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/test_result_msg__type_support.cpp.o"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/test_result_msg__type_support.cpp.o.d"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/train_algorithm_msg__type_support.cpp.o"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/train_algorithm_msg__type_support.cpp.o.d"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/train_result_msg__type_support.cpp.o"
+  "CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/train_result_msg__type_support.cpp.o.d"
+  "liblive_analysis_interfaces__rosidl_typesupport_c.pdb"
+  "liblive_analysis_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/live_analysis_interfaces/msg/test_model_msg__type_support.cpp"
+  "rosidl_typesupport_c/live_analysis_interfaces/msg/test_result_msg__type_support.cpp"
+  "rosidl_typesupport_c/live_analysis_interfaces/msg/train_algorithm_msg__type_support.cpp"
+  "rosidl_typesupport_c/live_analysis_interfaces/msg/train_result_msg__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

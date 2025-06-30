@@ -1,0 +1,25 @@
+[0.826s] Invoking command in '/home/burcu/ros2_ws/src/live_analysis_ros2': CMAKE_PREFIX_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces:/home/burcu/ros2_ws/install/my_cpp_server_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/burcu/ros2_ws/build/live_analysis_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages:/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages:/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros2env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live_analysis_ros2 build --build-base /home/burcu/ros2_ws/build/live_analysis_ros2/build install --record /home/burcu/ros2_ws/build/live_analysis_ros2/install.log --single-version-externally-managed install_data
+[1.047s] running egg_info
+[1.060s] writing ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/PKG-INFO
+[1.061s] writing dependency_links to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/dependency_links.txt
+[1.061s] writing entry points to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/entry_points.txt
+[1.061s] writing requirements to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/requires.txt
+[1.061s] writing top-level names to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/top_level.txt
+[1.088s] reading manifest file '../../build/live_analysis_ros2/live_analysis_ros2.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/live_analysis_ros2/live_analysis_ros2.egg-info/SOURCES.txt'
+[1.089s] running build
+[1.089s] running build_py
+[1.089s] copying live_analysis_ros2/training_node.py -> /home/burcu/ros2_ws/build/live_analysis_ros2/build/lib/live_analysis_ros2
+[1.090s] running install
+[1.095s] running install_lib
+[1.110s] copying /home/burcu/ros2_ws/build/live_analysis_ros2/build/lib/live_analysis_ros2/training_node.py -> /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2
+[1.110s] byte-compiling /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/training_node.py to training_node.cpython-312.pyc
+[1.112s] running install_data
+[1.112s] running install_egg_info
+[1.130s] removing '/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info' (and everything under it)
+[1.130s] Copying ../../build/live_analysis_ros2/live_analysis_ros2.egg-info to /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info
+[1.131s] running install_scripts
+[1.239s] Installing analysis_node script to /home/burcu/ros2_ws/install/live_analysis_ros2/lib/live_analysis_ros2
+[1.239s] Installing training_node script to /home/burcu/ros2_ws/install/live_analysis_ros2/lib/live_analysis_ros2
+[1.239s] writing list of installed files to '/home/burcu/ros2_ws/build/live_analysis_ros2/install.log'
+[1.269s] Invoked command in '/home/burcu/ros2_ws/src/live_analysis_ros2' returned '0': CMAKE_PREFIX_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces:/home/burcu/ros2_ws/install/my_cpp_server_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor PYTHONPATH=/home/burcu/ros2_ws/build/live_analysis_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages:/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages:/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros2env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live_analysis_ros2 build --build-base /home/burcu/ros2_ws/build/live_analysis_ros2/build install --record /home/burcu/ros2_ws/build/live_analysis_ros2/install.log --single-version-externally-managed install_data

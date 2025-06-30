@@ -1,0 +1,9 @@
+{
+  "package_name": "live_analysis_interfaces",
+  "non_idl_tuples": [
+    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TestModelMsg.msg",
+    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TestResultMsg.msg",
+    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TrainAlgorithmMsg.msg",
+    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TrainResultMsg.msg"
+  ]
+}

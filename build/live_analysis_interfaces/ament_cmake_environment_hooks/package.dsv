@@ -1,0 +1,4 @@
+source;share/live_analysis_interfaces/local_setup.bash
+source;share/live_analysis_interfaces/local_setup.dsv
+source;share/live_analysis_interfaces/local_setup.sh
+source;share/live_analysis_interfaces/local_setup.zsh

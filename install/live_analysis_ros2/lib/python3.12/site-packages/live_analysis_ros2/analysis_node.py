@@ -2,9 +2,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from std_msgs.msg import Header
-from live_analysis_ros2.msg import TestModelMsg
-from live_analysis_ros2.msg import TestResultMsg
-
+from live_analysis_interfaces.msg import TestModelMsg, TestResultMsg
 import sys
 import os
 import torch
@@ -42,7 +40,7 @@ class AnalysisNode(Node):
         self.resulting_confidences = []
         self.resulting_classes = []
 
-        self.device = torch.device("cuda:0")
+        self.device = torch.device("cpu") #cuda:0
         utils.fix_seeds(0, self.device)
 
         self.transforms = transforms.Compose([

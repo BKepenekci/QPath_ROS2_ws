@@ -8,6 +8,7 @@ setup.py
 ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/requires.txt
 ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/top_level.txt
 ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/zip-safe
+launch/analysis_node.launch.py
 live_analysis_ros2/__init__.py
 live_analysis_ros2/analysis_node.py
 live_analysis_ros2/backbones.py
@@ -19,11 +20,8 @@ live_analysis_ros2/model_test_node.py
 live_analysis_ros2/resnet.py
 live_analysis_ros2/simplenet.py
 live_analysis_ros2/train_node_testing.py
+live_analysis_ros2/training_node.py
 live_analysis_ros2/utils.py
-msg/TestModelMsg.msg
-msg/TestResultMsg.msg
-msg/TrainAlgorithmMsg.msg
-msg/TrainResultMsg.msg
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

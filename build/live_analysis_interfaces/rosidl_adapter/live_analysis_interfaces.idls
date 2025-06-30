@@ -1,0 +1,4 @@
+/home/burcu/ros2_ws/build/live_analysis_interfaces/rosidl_adapter/live_analysis_interfaces:msg/TestModelMsg.idl
+/home/burcu/ros2_ws/build/live_analysis_interfaces/rosidl_adapter/live_analysis_interfaces:msg/TestResultMsg.idl
+/home/burcu/ros2_ws/build/live_analysis_interfaces/rosidl_adapter/live_analysis_interfaces:msg/TrainAlgorithmMsg.idl
+/home/burcu/ros2_ws/build/live_analysis_interfaces/rosidl_adapter/live_analysis_interfaces:msg/TrainResultMsg.idl

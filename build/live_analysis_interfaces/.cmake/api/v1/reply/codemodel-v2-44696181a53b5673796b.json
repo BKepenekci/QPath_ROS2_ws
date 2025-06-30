@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-91eae074cdf1a94fcab1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "live_analysis_interfaces__py",
+					"jsonFile" : "directory-live_analysis_interfaces__py-d570197d970975cccea7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/burcu/ros2_ws/build/live_analysis_interfaces/live_analysis_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "live_analysis_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_live_analysis_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_live_analysis_interfaces_egg-19ce7193f70c2608a1c2.json",
+					"name" : "ament_cmake_python_build_live_analysis_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_live_analysis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_live_analysis_interfaces-57fd42f9682aac1553bf.json",
+					"name" : "ament_cmake_python_copy_live_analysis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces-4b24849b0bb9e6785f6b.json",
+					"name" : "live_analysis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__cpp-0f081c5bff5e04602e44.json",
+					"name" : "live_analysis_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "live_analysis_interfaces__py::@f601a92f10362b7ae90a",
+					"jsonFile" : "target-live_analysis_interfaces__py-b09d238ee86672d7bf93.json",
+					"name" : "live_analysis_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_generator_c-79d83c1d9d005841f831.json",
+					"name" : "live_analysis_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_generator_py-6753507266b8ca0cb56e.json",
+					"name" : "live_analysis_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_generator_type_description-72ee2be1267d0948b7a5.json",
+					"name" : "live_analysis_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_c-ececdeceb96f86bf85f5.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_cpp-de14ed829421f2af2f3f.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_fastrtps_c-47844442aa0fdbaf1834.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp-4ecf3d3f420e6000e322.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_introspection_c-7ab05e1eb71facfe012f.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_introspection_cpp-93a933bd0f89f1484ff5.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces_s__rosidl_typesupport_c-1cfa8623812f7458c956.json",
+					"name" : "live_analysis_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c-a29b08ff0d63b6e7d9df.json",
+					"name" : "live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces_s__rosidl_typesupport_introspection_c-d96bd9def176299d41dd.json",
+					"name" : "live_analysis_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces_uninstall-b623eac239c18108372a.json",
+					"name" : "live_analysis_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5b0714441607349bcacc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/burcu/ros2_ws/build/live_analysis_interfaces",
+		"source" : "/home/burcu/ros2_ws/src/liver_analysis_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

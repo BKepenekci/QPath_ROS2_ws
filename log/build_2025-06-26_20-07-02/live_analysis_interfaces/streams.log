@@ -1,0 +1,313 @@
+[0.011s] Invoking command in '/home/burcu/ros2_ws/build/live_analysis_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/burcu/ros2_ws/install/live_analysis_ros2:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(ros2env) /usr/bin/cmake --build /home/burcu/ros2_ws/build/live_analysis_interfaces -- -j22 -l22
+[0.041s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.062s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.151s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.300s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.302s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.335s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.638s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.991s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.214s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.256s] -- Configuring done (1.2s)
+[1.309s] -- Generating done (0.0s)
+[1.321s] -- Build files have been written to: /home/burcu/ros2_ws/build/live_analysis_interfaces
+[1.352s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.357s] [  1%] Built target ament_cmake_python_copy_live_analysis_interfaces
+[1.525s] running egg_info
+[1.538s] writing live_analysis_interfaces.egg-info/PKG-INFO
+[1.538s] writing dependency_links to live_analysis_interfaces.egg-info/dependency_links.txt
+[1.539s] writing top-level names to live_analysis_interfaces.egg-info/top_level.txt
+[1.568s] [  1%] Built target live_analysis_interfaces__rosidl_generator_type_description
+[1.577s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.586s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.594s] reading manifest file 'live_analysis_interfaces.egg-info/SOURCES.txt'
+[1.594s] writing manifest file 'live_analysis_interfaces.egg-info/SOURCES.txt'
+[1.627s] [  4%] Built target ament_cmake_python_build_live_analysis_interfaces_egg
+[1.986s] [  4%] Built target live_analysis_interfaces__cpp
+[2.094s] [  6%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/test_result_msg__description.c.o[0m
+[2.094s] [  7%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/test_model_msg__functions.c.o[0m
+[2.095s] [ 10%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/test_result_msg__functions.c.o[0m
+[2.095s] [ 10%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/test_result_msg__type_support.c.o[0m
+[2.097s] [ 14%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/test_model_msg__type_support.c.o[0m
+[2.097s] [ 14%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/train_result_msg__functions.c.o[0m
+[2.098s] [ 15%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/test_model_msg__description.c.o[0m
+[2.099s] [ 21%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/train_result_msg__description.c.o[0m
+[2.100s] [ 21%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/train_algorithm_msg__functions.c.o[0m
+[2.100s] [ 21%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/train_algorithm_msg__description.c.o[0m
+[2.100s] [ 21%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.c.o[0m
+[2.102s] [ 23%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_c.dir/rosidl_generator_c/live_analysis_interfaces/msg/detail/train_result_msg__type_support.c.o[0m
+[2.193s] [ 25%] [32m[1mLinking C shared library liblive_analysis_interfaces__rosidl_generator_c.so[0m
+[2.325s] [ 25%] Built target live_analysis_interfaces__rosidl_generator_c
+[2.338s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.339s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.339s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.340s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.341s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.343s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.844s] [ 35%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/test_model_msg__type_support.cpp.o[0m
+[2.848s] [ 37%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/train_result_msg__type_support.cpp.o[0m
+[2.849s] [ 40%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/train_algorithm_msg__type_support.cpp.o[0m
+[2.849s] [ 40%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/live_analysis_interfaces/msg/test_result_msg__type_support.cpp.o[0m
+[2.880s] [ 42%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/live_analysis_interfaces/msg/detail/test_model_msg__type_support.cpp.o[0m
+[2.881s] [ 45%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/live_analysis_interfaces/msg/detail/train_result_msg__type_support.cpp.o[0m
+[2.881s] [ 45%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.cpp.o[0m
+[2.882s] [ 46%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/live_analysis_interfaces/msg/detail/test_result_msg__type_support.cpp.o[0m
+[2.890s] [ 50%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/live_analysis_interfaces/msg/test_result_msg__type_support.cpp.o[0m
+[2.890s] [ 50%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/live_analysis_interfaces/msg/test_model_msg__type_support.cpp.o[0m
+[2.892s] [ 51%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/live_analysis_interfaces/msg/train_algorithm_msg__type_support.cpp.o[0m
+[2.892s] [ 53%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/live_analysis_interfaces/msg/train_result_msg__type_support.cpp.o[0m
+[2.967s] [ 54%] [32m[1mLinking CXX shared library liblive_analysis_interfaces__rosidl_typesupport_c.so[0m
+[3.016s] [ 56%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/live_analysis_interfaces/msg/detail/test_result_msg__type_support.c.o[0m
+[3.017s] [ 59%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/live_analysis_interfaces/msg/detail/train_result_msg__type_support.c.o[0m
+[3.017s] [ 59%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/live_analysis_interfaces/msg/detail/test_model_msg__type_support.c.o[0m
+[3.037s] [ 60%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.c.o[0m
+[3.122s] [ 62%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/live_analysis_interfaces/msg/detail/dds_fastrtps/test_model_msg__type_support.cpp.o[0m
+[3.124s] [ 64%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/live_analysis_interfaces/msg/detail/dds_fastrtps/train_algorithm_msg__type_support.cpp.o[0m
+[3.127s] [ 65%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/live_analysis_interfaces/msg/detail/dds_fastrtps/train_result_msg__type_support.cpp.o[0m
+[3.129s] [ 67%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/live_analysis_interfaces/msg/detail/dds_fastrtps/test_result_msg__type_support.cpp.o[0m
+[3.131s] [ 68%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/live_analysis_interfaces/msg/detail/test_result_msg__type_support_c.cpp.o[0m
+[3.134s] [ 70%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/live_analysis_interfaces/msg/detail/train_result_msg__type_support_c.cpp.o[0m
+[3.136s] [ 71%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support_c.cpp.o[0m
+[3.141s] [ 73%] [32mBuilding CXX object CMakeFiles/live_analysis_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/live_analysis_interfaces/msg/detail/test_model_msg__type_support_c.cpp.o[0m
+[3.234s] [ 75%] [32m[1mLinking C shared library liblive_analysis_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.646s] [ 75%] Built target live_analysis_interfaces__rosidl_typesupport_c
+[3.900s] [ 75%] Built target live_analysis_interfaces__rosidl_typesupport_introspection_c
+[4.313s] [ 76%] [32m[1mLinking CXX shared library liblive_analysis_interfaces__rosidl_typesupport_cpp.so[0m
+[4.606s] [ 78%] [32m[1mLinking CXX shared library liblive_analysis_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.688s] [ 78%] Built target live_analysis_interfaces__rosidl_typesupport_cpp
+[5.016s] [ 78%] Built target live_analysis_interfaces__rosidl_typesupport_introspection_cpp
+[5.168s] [ 79%] [32m[1mLinking CXX shared library liblive_analysis_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.199s] [ 81%] [32m[1mLinking CXX shared library liblive_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.398s] [ 81%] Built target live_analysis_interfaces__rosidl_typesupport_fastrtps_c
+[5.421s] [ 81%] Built target live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.454s] [ 81%] Built target live_analysis_interfaces
+[5.490s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.356s] [ 82%] Built target live_analysis_interfaces__py
+[6.392s] [ 84%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/live_analysis_interfaces/msg/_test_result_msg_s.c.o[0m
+[6.392s] [ 87%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/live_analysis_interfaces/msg/_test_model_msg_s.c.o[0m
+[6.392s] [ 87%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/live_analysis_interfaces/msg/_train_result_msg_s.c.o[0m
+[6.392s] [ 89%] [32mBuilding C object CMakeFiles/live_analysis_interfaces__rosidl_generator_py.dir/rosidl_generator_py/live_analysis_interfaces/msg/_train_algorithm_msg_s.c.o[0m
+[6.613s] [ 90%] [32m[1mLinking C shared library liblive_analysis_interfaces__rosidl_generator_py.so[0m
+[6.763s] [ 90%] Built target live_analysis_interfaces__rosidl_generator_py
+[6.797s] [ 93%] [32mBuilding C object CMakeFiles/live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/live_analysis_interfaces/_live_analysis_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.797s] [ 93%] [32mBuilding C object CMakeFiles/live_analysis_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/live_analysis_interfaces/_live_analysis_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.799s] [ 95%] [32mBuilding C object CMakeFiles/live_analysis_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/live_analysis_interfaces/_live_analysis_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.954s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.959s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_c.so[0m
+[6.990s] [100%] [32m[1mLinking C shared module rosidl_generator_py/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.059s] [100%] Built target live_analysis_interfaces_s__rosidl_typesupport_c
+[7.066s] [100%] Built target live_analysis_interfaces_s__rosidl_typesupport_introspection_c
+[7.118s] [100%] Built target live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.136s] Invoked command in '/home/burcu/ros2_ws/build/live_analysis_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/burcu/ros2_ws/install/live_analysis_ros2:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(ros2env) /usr/bin/cmake --build /home/burcu/ros2_ws/build/live_analysis_interfaces -- -j22 -l22
+[7.138s] Invoking command in '/home/burcu/ros2_ws/build/live_analysis_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/burcu/ros2_ws/install/live_analysis_ros2:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(ros2env) /usr/bin/cmake --install /home/burcu/ros2_ws/build/live_analysis_interfaces
+[7.149s] -- Install configuration: ""
+[7.149s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/ament_index/resource_index/rosidl_interfaces/live_analysis_interfaces
+[7.150s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TestModelMsg.json
+[7.150s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TestResultMsg.json
+[7.150s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TrainAlgorithmMsg.json
+[7.150s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TrainResultMsg.json
+[7.152s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces
+[7.152s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg
+[7.152s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.152s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/test_result_msg.h
+[7.152s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/train_algorithm_msg.h
+[7.152s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/train_result_msg.h
+[7.153s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/test_model_msg.h
+[7.153s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail
+[7.153s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__description.c
+[7.153s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__functions.c
+[7.154s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__description.c
+[7.154s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__struct.h
+[7.154s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__description.c
+[7.154s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__struct.h
+[7.155s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.c
+[7.155s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__type_support.h
+[7.155s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__type_support.c
+[7.156s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__type_support.c
+[7.156s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__functions.c
+[7.156s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__description.c
+[7.157s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__functions.h
+[7.157s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__struct.h
+[7.157s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__type_support.h
+[7.157s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__type_support.h
+[7.157s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.h
+[7.157s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__functions.h
+[7.158s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__type_support.c
+[7.158s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__functions.c
+[7.158s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__functions.h
+[7.158s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__struct.h
+[7.158s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__functions.c
+[7.159s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__functions.h
+[7.159s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/library_path.sh
+[7.159s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/library_path.dsv
+[7.159s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_generator_c.so
+[7.160s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_generator_c.so" to ""
+[7.161s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces
+[7.162s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg
+[7.162s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.163s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail
+[7.163s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__rosidl_typesupport_fastrtps_c.h
+[7.163s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__rosidl_typesupport_fastrtps_c.h
+[7.163s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__rosidl_typesupport_fastrtps_c.h
+[7.164s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__rosidl_typesupport_fastrtps_c.h
+[7.164s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.164s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.164s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces
+[7.165s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg
+[7.165s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.165s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail
+[7.165s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__rosidl_typesupport_introspection_c.h
+[7.166s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.c
+[7.166s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__type_support.c
+[7.166s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__type_support.c
+[7.166s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__rosidl_typesupport_introspection_c.h
+[7.167s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__rosidl_typesupport_introspection_c.h
+[7.167s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__type_support.c
+[7.167s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__rosidl_typesupport_introspection_c.h
+[7.167s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_introspection_c.so
+[7.167s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.168s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_c.so
+[7.168s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_c.so" to ""
+[7.168s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces
+[7.168s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg
+[7.168s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/test_result_msg.hpp
+[7.169s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/train_algorithm_msg.hpp
+[7.169s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/test_model_msg.hpp
+[7.169s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/train_result_msg.hpp
+[7.169s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.169s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__struct.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__struct.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__struct.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__traits.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__traits.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__struct.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__type_support.hpp
+[7.170s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__builder.hpp
+[7.171s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.hpp
+[7.171s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__type_support.hpp
+[7.171s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__builder.hpp
+[7.171s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__traits.hpp
+[7.172s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__traits.hpp
+[7.172s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__builder.hpp
+[7.172s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__builder.hpp
+[7.172s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__type_support.hpp
+[7.172s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces
+[7.172s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg
+[7.173s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.173s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail
+[7.173s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.173s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.173s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/dds_fastrtps
+[7.173s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.173s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.173s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.174s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.174s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces
+[7.174s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg
+[7.174s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail
+[7.174s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__type_support.cpp
+[7.175s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.175s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.175s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_result_msg__type_support.cpp
+[7.175s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_algorithm_msg__type_support.cpp
+[7.176s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.176s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/test_model_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.176s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/include/live_analysis_interfaces/live_analysis_interfaces/msg/detail/train_result_msg__type_support.cpp
+[7.176s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.178s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.178s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_cpp.so
+[7.179s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.179s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/pythonpath.sh
+[7.179s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/pythonpath.dsv
+[7.179s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces-0.1.0-py3.12.egg-info
+[7.180s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+[7.180s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+[7.180s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+[7.180s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+[7.181s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces
+[7.181s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/__init__.py
+[7.181s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg
+[7.181s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_train_algorithm_msg.py
+[7.182s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_train_result_msg_s.c
+[7.182s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/__init__.py
+[7.182s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_test_result_msg.py
+[7.182s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_test_result_msg_s.c
+[7.183s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_train_result_msg.py
+[7.183s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_train_algorithm_msg_s.c
+[7.183s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_test_model_msg.py
+[7.183s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_test_model_msg_s.c
+[7.183s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/_live_analysis_interfaces_s.ep.rosidl_typesupport_c.c
+[7.183s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/_live_analysis_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.184s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/_live_analysis_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.184s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.184s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.184s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_c.so
+[7.248s] Listing '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces'...
+[7.248s] Compiling '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/__init__.py'...
+[7.248s] Listing '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg'...
+[7.248s] Compiling '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/__init__.py'...
+[7.248s] Compiling '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_test_model_msg.py'...
+[7.249s] Compiling '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_test_result_msg.py'...
+[7.249s] Compiling '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_train_algorithm_msg.py'...
+[7.249s] Compiling '/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/msg/_train_result_msg.py'...
+[7.257s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.257s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.257s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.258s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[7.258s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_c.so
+[7.258s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages/live_analysis_interfaces/live_analysis_interfaces_s__rosidl_typesupport_c.so" to ""
+[7.258s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_generator_py.so
+[7.260s] -- Set non-toolchain portion of runtime path of "/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/liblive_analysis_interfaces__rosidl_generator_py.so" to ""
+[7.260s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TestModelMsg.idl
+[7.260s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TestResultMsg.idl
+[7.260s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TrainAlgorithmMsg.idl
+[7.260s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TrainResultMsg.idl
+[7.261s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TestModelMsg.msg
+[7.261s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TestResultMsg.msg
+[7.261s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TrainAlgorithmMsg.msg
+[7.261s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/msg/TrainResultMsg.msg
+[7.261s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/ament_index/resource_index/package_run_dependencies/live_analysis_interfaces
+[7.261s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/ament_index/resource_index/parent_prefix_path/live_analysis_interfaces
+[7.262s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/ament_prefix_path.sh
+[7.263s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/ament_prefix_path.dsv
+[7.263s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/path.sh
+[7.263s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/environment/path.dsv
+[7.264s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/local_setup.bash
+[7.264s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/local_setup.sh
+[7.264s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/local_setup.zsh
+[7.264s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/local_setup.dsv
+[7.265s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.dsv
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/ament_index/resource_index/packages/live_analysis_interfaces
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_generator_cExport.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_cExport.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.265s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_generator_cppExport.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_cppExport.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.266s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_generator_pyExport.cmake
+[7.267s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/export_live_analysis_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.267s] -- Installing: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.267s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.267s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.267s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.268s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.268s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.269s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.269s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfacesConfig.cmake
+[7.269s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/cmake/live_analysis_interfacesConfig-version.cmake
+[7.269s] -- Up-to-date: /home/burcu/ros2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.xml
+[7.271s] Invoked command in '/home/burcu/ros2_ws/build/live_analysis_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/burcu/ros2_ws/install/live_analysis_ros2:/opt/ros/jazzy VIRTUAL_ENV_PROMPT=(ros2env) /usr/bin/cmake --install /home/burcu/ros2_ws/build/live_analysis_interfaces

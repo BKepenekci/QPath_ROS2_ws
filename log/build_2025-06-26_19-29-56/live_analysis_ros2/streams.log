@@ -1,0 +1,25 @@
+[1.318s] Invoking command in '/home/burcu/ros2_ws/src/live_analysis_ros2': AMENT_PREFIX_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/burcu/ros2_ws/build/live_analysis_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages:/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live_analysis_ros2 build --build-base /home/burcu/ros2_ws/build/live_analysis_ros2/build install --record /home/burcu/ros2_ws/build/live_analysis_ros2/install.log --single-version-externally-managed install_data
+[1.636s] running egg_info
+[1.654s] writing ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/PKG-INFO
+[1.654s] writing dependency_links to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/dependency_links.txt
+[1.655s] writing entry points to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/entry_points.txt
+[1.655s] writing requirements to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/requires.txt
+[1.655s] writing top-level names to ../../build/live_analysis_ros2/live_analysis_ros2.egg-info/top_level.txt
+[1.697s] reading manifest file '../../build/live_analysis_ros2/live_analysis_ros2.egg-info/SOURCES.txt'
+[1.698s] writing manifest file '../../build/live_analysis_ros2/live_analysis_ros2.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.698s] running build_py
+[1.699s] copying live_analysis_ros2/analysis_node.py -> /home/burcu/ros2_ws/build/live_analysis_ros2/build/lib/live_analysis_ros2
+[1.700s] running install
+[1.708s] running install_lib
+[1.730s] copying /home/burcu/ros2_ws/build/live_analysis_ros2/build/lib/live_analysis_ros2/analysis_node.py -> /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2
+[1.731s] byte-compiling /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/analysis_node.py to analysis_node.cpython-312.pyc
+[1.734s] running install_data
+[1.734s] copying package.xml -> /home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2
+[1.734s] running install_egg_info
+[1.757s] removing '/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info' (and everything under it)
+[1.758s] Copying ../../build/live_analysis_ros2/live_analysis_ros2.egg-info to /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info
+[1.760s] running install_scripts
+[1.899s] Installing analysis_node script to /home/burcu/ros2_ws/install/live_analysis_ros2/lib/live_analysis_ros2
+[1.900s] writing list of installed files to '/home/burcu/ros2_ws/build/live_analysis_ros2/install.log'
+[1.933s] Invoked command in '/home/burcu/ros2_ws/src/live_analysis_ros2' returned '0': AMENT_PREFIX_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/burcu/ros2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/burcu/ros2_ws/build/live_analysis_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages:/home/burcu/ros2_ws/install/live_analysis_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/live_analysis_ros2 build --build-base /home/burcu/ros2_ws/build/live_analysis_ros2/build install --record /home/burcu/ros2_ws/build/live_analysis_ros2/install.log --single-version-externally-managed install_data

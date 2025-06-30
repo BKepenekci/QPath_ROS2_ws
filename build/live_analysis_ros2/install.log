@@ -7,6 +7,7 @@
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/train_node_testing.py
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/common.py
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/simplenet.py
+/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/training_node.py
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__init__.py
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/analysis_node.py
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/metrics.py
@@ -19,15 +20,13 @@
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/train_node_testing.cpython-312.pyc
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/common.cpython-312.pyc
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/simplenet.cpython-312.pyc
+/home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/training_node.cpython-312.pyc
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/__init__.cpython-312.pyc
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/analysis_node.cpython-312.pyc
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2/__pycache__/metrics.cpython-312.pyc
 /home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/package.xml
-/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/msg/TestResultMsg.msg
-/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/msg/TrainResultMsg.msg
-/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/msg/TestModelMsg.msg
-/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/msg/TrainAlgorithmMsg.msg
-/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/launch
+/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/msg
+/home/burcu/ros2_ws/install/live_analysis_ros2/share/live_analysis_ros2/launch/analysis_node.launch.py
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info/PKG-INFO
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info/SOURCES.txt
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info/entry_points.txt
@@ -36,3 +35,4 @@
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info/requires.txt
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/python3.12/site-packages/live_analysis_ros2-0.1.0-py3.12.egg-info/top_level.txt
 /home/burcu/ros2_ws/install/live_analysis_ros2/lib/live_analysis_ros2/analysis_node
+/home/burcu/ros2_ws/install/live_analysis_ros2/lib/live_analysis_ros2/training_node
