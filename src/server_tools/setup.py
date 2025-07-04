@@ -25,8 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'training_data_loader = server_tools.training_data_loader:main',
-            'result_collector_node = live_analysis_ros2.result_collector_node:main',
+            'test_result_saver = server_tools.test_result_saver:main',
             'training_result_listener = server_tools.training_result_listener:main',
+            'test_data_loader = server_tools.test_data_loader:main',
         ],
     },
 )
