@@ -1,0 +1,12 @@
+std_msgs/Header header
+string user_id
+string algorithm_id
+string model_id
+int32 epochs
+float32 min_accuracy
+int32 batch_size
+string gpu
+int32 sample_count
+bool use_detection
+bool use_label
+string data_class

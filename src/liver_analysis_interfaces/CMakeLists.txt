@@ -9,10 +9,12 @@ find_package(sensor_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/TestModelMsg.msg"
-  "msg/TestResultMsg.msg"
-  "msg/TrainAlgorithmMsg.msg"
-  "msg/TrainResultMsg.msg"
+  "msg/TestRequest.msg"
+  "msg/TestRequestClient.msg"
+  "msg/TestResult.msg"
+  "msg/TrainRequest.msg"
+  "msg/TrainRequestClient.msg"
+  "msg/TrainingResult.msg"
   DEPENDENCIES std_msgs sensor_msgs builtin_interfaces
 )
 

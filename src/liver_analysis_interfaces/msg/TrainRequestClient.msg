@@ -1,0 +1,16 @@
+std_msgs/Header header
+string user_id
+string algorithm_id
+string model_id
+int32 epochs
+float32 min_accuracy
+int32 batch_size
+bool use_detection
+bool use_label
+string data_class
+sensor_msgs/Image[] train_images
+sensor_msgs/Image[] eval_images
+string[] class_labels
+float32[] rectangles 
+bool files_completed
+int32 seq_no

@@ -1,0 +1,13 @@
+std_msgs/Header header
+string user_id
+string algorithm_id
+string model_id
+float32 total_time
+int32 total_patches
+float32 loss
+float32 duration
+int32 epochs
+int32 current_epoch
+string msg_txt
+bool training_completed
+bool stopped
