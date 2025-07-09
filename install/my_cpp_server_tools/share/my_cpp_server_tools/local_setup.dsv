@@ -1,2 +1,1 @@
-source;share/my_cpp_server_tools/environment/ament_prefix_path.sh
-source;share/my_cpp_server_tools/environment/path.sh
+/home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,1 @@
+/home/paranavision/ros2_ws/QPath_ROS2_ws/src/anomaly_detector/msg/AnomalyResult.msg

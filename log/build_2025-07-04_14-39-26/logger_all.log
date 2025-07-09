@@ -1,0 +1,441 @@
+[0.229s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.229s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faf6acfcdf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faf6acfcdf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faf6ad073a0>)
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paranavision/ros2_ws/QPath_ROS2_ws'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/anomaly_detector) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/anomaly_detector' with type 'ros.ament_python' and name 'anomaly_detector'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_control' with type 'ros.ament_python' and name 'camera_control'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/live_analysis_ros2) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/live_analysis_ros2' with type 'ros.ament_python' and name 'live_analysis_ros2'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/liver_analysis_interfaces) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/liver_analysis_interfaces' with type 'ros.ament_cmake' and name 'live_analysis_interfaces'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_server_tools) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_server_tools' with type 'ros.ament_cmake' and name 'my_cpp_server_tools'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_tools) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/server_tools' with type 'ros.ament_python' and name 'server_tools'
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 269 installed packages in /opt/ros/rolling
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'camera_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control', 'merge_install': False, 'path': '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/camera_control', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'live_analysis_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces', 'merge_install': False, 'path': '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_server_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_server_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools', 'merge_install': False, 'path': '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/my_cpp_server_tools', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'anomaly_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'anomaly_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector', 'merge_install': False, 'path': '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/anomaly_detector', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'live_analysis_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'live_analysis_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2', 'merge_install': False, 'path': '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/live_analysis_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'server_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'server_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools', 'merge_install': False, 'path': '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/server_tools', 'symlink_install': True, 'test_result_base': None}
+[0.365s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces'
+[0.368s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/camera_control' with build type 'ament_python'
+[0.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'ament_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/hook/ament_prefix_path.ps1'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/hook/ament_prefix_path.dsv'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/hook/ament_prefix_path.sh'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/my_cpp_server_tools' with build type 'ament_cmake'
+[0.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/my_cpp_server_tools'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces -- -j6 -l6
+[0.606s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'camera_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.606s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/camera_control'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools -- -j6 -l6
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools -- -j6 -l6
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools
+[0.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_server_tools)
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/paranavision/ros2_ws/QPath_ROS2_ws/build/my_cpp_server_tools
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools' for CMake module files
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools' for CMake config files
+[0.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_server_tools', 'cmake_prefix_path')
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/hook/cmake_prefix_path.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/lib'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/bin'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/lib/pkgconfig/my_cpp_server_tools.pc'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/lib/python3.8/site-packages'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/bin'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.sh'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.zsh'
+[0.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/colcon-core/packages/my_cpp_server_tools)
+[0.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_server_tools)
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools' for CMake module files
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools' for CMake config files
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_server_tools', 'cmake_prefix_path')
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/hook/cmake_prefix_path.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/hook/cmake_prefix_path.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/hook/cmake_prefix_path.sh'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/lib'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/bin'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/lib/pkgconfig/my_cpp_server_tools.pc'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/lib/python3.8/site-packages'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/bin'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.ps1'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.sh'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.bash'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/my_cpp_server_tools/package.zsh'
+[0.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/my_cpp_server_tools/share/colcon-core/packages/my_cpp_server_tools)
+[0.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces -- -j6 -l6
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control': PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/build --no-deps symlink_data
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath_develop')
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/share/camera_control/hook/pythonpath_develop.ps1'
+[2.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control' returned '0': PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/build --no-deps symlink_data
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/share/camera_control/hook/pythonpath_develop.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/share/camera_control/hook/pythonpath_develop.sh'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control' for CMake module files
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control' for CMake config files
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/lib'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/bin'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/lib/pkgconfig/camera_control.pc'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/lib/python3.8/site-packages'
+[2.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath')
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/hook/pythonpath.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/hook/pythonpath.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/hook/pythonpath.sh'
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/bin'
+[2.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_control)
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/package.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/package.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/package.sh'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/package.bash'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/camera_control/package.zsh'
+[2.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/camera_control/share/colcon-core/packages/camera_control)
+[2.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(live_analysis_interfaces)
+[2.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces' for CMake module files
+[2.192s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces' for CMake config files
+[2.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_interfaces', 'cmake_prefix_path')
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/cmake_prefix_path.ps1'
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/cmake_prefix_path.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/cmake_prefix_path.sh'
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib'
+[2.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_interfaces', 'ld_library_path_lib')
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/ld_library_path_lib.ps1'
+[2.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/ld_library_path_lib.dsv'
+[2.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/ld_library_path_lib.sh'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/bin'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/pkgconfig/live_analysis_interfaces.pc'
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.8/site-packages'
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/bin'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.ps1'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.dsv'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.sh'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.bash'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.zsh'
+[2.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/colcon-core/packages/live_analysis_interfaces)
+[2.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(live_analysis_interfaces)
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces' for CMake module files
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces' for CMake config files
+[2.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_interfaces', 'cmake_prefix_path')
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/cmake_prefix_path.ps1'
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/cmake_prefix_path.dsv'
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/cmake_prefix_path.sh'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib'
+[2.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_interfaces', 'ld_library_path_lib')
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/ld_library_path_lib.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/ld_library_path_lib.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/hook/ld_library_path_lib.sh'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/bin'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/pkgconfig/live_analysis_interfaces.pc'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.8/site-packages'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/bin'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.ps1'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.sh'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.bash'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/live_analysis_interfaces/package.zsh'
+[2.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/share/colcon-core/packages/live_analysis_interfaces)
+[2.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/anomaly_detector' with build type 'ament_python'
+[2.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('anomaly_detector', 'ament_prefix_path')
+[2.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/hook/ament_prefix_path.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/hook/ament_prefix_path.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/hook/ament_prefix_path.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.211s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/live_analysis_ros2' with build type 'ament_python'
+[2.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_ros2', 'ament_prefix_path')
+[2.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/hook/ament_prefix_path.ps1'
+[2.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/hook/ament_prefix_path.dsv'
+[2.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/hook/ament_prefix_path.sh'
+[2.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.217s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/server_tools' with build type 'ament_python'
+[2.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_tools', 'ament_prefix_path')
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/hook/ament_prefix_path.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/hook/ament_prefix_path.dsv'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/hook/ament_prefix_path.sh'
+[2.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.428s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'anomaly_detector' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/anomaly_detector'
+[2.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.633s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'live_analysis_ros2' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.633s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/live_analysis_ros2'
+[2.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.839s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'server_tools' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.839s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paranavision/ros2_ws/QPath_ROS2_ws/src/server_tools'
+[2.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/build --no-deps symlink_data
+[3.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/build --no-deps symlink_data
+[3.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/build --no-deps symlink_data
+[4.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('anomaly_detector', 'pythonpath_develop')
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/share/anomaly_detector/hook/pythonpath_develop.ps1'
+[4.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector' returned '0': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/build --no-deps symlink_data
+[4.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/share/anomaly_detector/hook/pythonpath_develop.dsv'
+[4.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/share/anomaly_detector/hook/pythonpath_develop.sh'
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector' for CMake module files
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector' for CMake config files
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/lib'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/bin'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/lib/pkgconfig/anomaly_detector.pc'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/lib/python3.8/site-packages'
+[4.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('anomaly_detector', 'pythonpath')
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/hook/pythonpath.ps1'
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/hook/pythonpath.dsv'
+[4.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/hook/pythonpath.sh'
+[4.232s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/bin'
+[4.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anomaly_detector)
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/package.ps1'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/package.dsv'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/package.sh'
+[4.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/package.bash'
+[4.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/anomaly_detector/package.zsh'
+[4.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/anomaly_detector/share/colcon-core/packages/anomaly_detector)
+[4.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_tools', 'pythonpath_develop')
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/share/server_tools/hook/pythonpath_develop.ps1'
+[4.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools' returned '0': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/build --no-deps symlink_data
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/share/server_tools/hook/pythonpath_develop.dsv'
+[4.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/share/server_tools/hook/pythonpath_develop.sh'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools' for CMake module files
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools' for CMake config files
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/bin'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/pkgconfig/server_tools.pc'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/python3.8/site-packages'
+[4.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_tools', 'pythonpath')
+[4.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/hook/pythonpath.ps1'
+[4.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/hook/pythonpath.dsv'
+[4.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/hook/pythonpath.sh'
+[4.267s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/bin'
+[4.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(server_tools)
+[4.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/package.ps1'
+[4.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/package.dsv'
+[4.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/package.sh'
+[4.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/package.bash'
+[4.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/server_tools/package.zsh'
+[4.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/share/colcon-core/packages/server_tools)
+[4.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_ros2', 'pythonpath_develop')
+[4.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/share/live_analysis_ros2/hook/pythonpath_develop.ps1'
+[4.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2' returned '0': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/build --no-deps symlink_data
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/share/live_analysis_ros2/hook/pythonpath_develop.dsv'
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_ros2/share/live_analysis_ros2/hook/pythonpath_develop.sh'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2' for CMake module files
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2' for CMake config files
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/lib'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/bin'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/lib/pkgconfig/live_analysis_ros2.pc'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/lib/python3.8/site-packages'
+[4.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('live_analysis_ros2', 'pythonpath')
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/hook/pythonpath.ps1'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/hook/pythonpath.dsv'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/hook/pythonpath.sh'
+[4.275s] Level 1:colcon.colcon_core.environment:checking '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/bin'
+[4.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(live_analysis_ros2)
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/package.ps1'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/package.dsv'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/package.sh'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/package.bash'
+[4.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/live_analysis_ros2/package.zsh'
+[4.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_ros2/share/colcon-core/packages/live_analysis_ros2)
+[4.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.278s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.283s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.295s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.296s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/local_setup.ps1'
+[4.297s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/_local_setup_util_ps1.py'
+[4.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/setup.ps1'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/local_setup.sh'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/_local_setup_util_sh.py'
+[4.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/setup.sh'
+[4.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/local_setup.bash'
+[4.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/setup.bash'
+[4.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/local_setup.zsh'
+[4.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paranavision/ros2_ws/QPath_ROS2_ws/install/setup.zsh'

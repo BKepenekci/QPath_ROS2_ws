@@ -1,0 +1,1 @@
+Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces

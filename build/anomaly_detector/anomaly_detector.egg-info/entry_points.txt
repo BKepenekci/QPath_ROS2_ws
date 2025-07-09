@@ -1,0 +1,7 @@
+[console_scripts]
+anomaly_tester_node = anomaly_detector.anomaly_tester_node:main
+manager_node = anomaly_detector.manager_node:main
+patch_miner_node = anomaly_detector.patch_miner_node:main
+test_node = anomaly_detector.test_node:main
+training_node = anomaly_detector.training_node:main
+yolo_detector_node = anomaly_detector.yolo_detector_node:main

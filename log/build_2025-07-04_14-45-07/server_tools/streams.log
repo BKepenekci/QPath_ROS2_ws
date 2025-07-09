@@ -1,0 +1,22 @@
+[1.278s] Invoking command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/build --no-deps symlink_data
+[1.428s] /home/paranavision/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.428s]   warnings.warn(msg)
+[1.629s] running develop
+[1.882s] running egg_info
+[1.905s] writing server_tools.egg-info/PKG-INFO
+[1.905s] writing dependency_links to server_tools.egg-info/dependency_links.txt
+[1.906s] writing entry points to server_tools.egg-info/entry_points.txt
+[1.906s] writing requirements to server_tools.egg-info/requires.txt
+[1.906s] writing top-level names to server_tools.egg-info/top_level.txt
+[1.946s] reading manifest file 'server_tools.egg-info/SOURCES.txt'
+[1.947s] writing manifest file 'server_tools.egg-info/SOURCES.txt'
+[2.003s] running build_ext
+[2.003s] Creating /home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/python3.8/site-packages/server-tools.egg-link (link to .)
+[2.016s] Installing test_data_loader script to /home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/server_tools
+[2.016s] Installing test_result_saver script to /home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/server_tools
+[2.016s] Installing training_data_loader script to /home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/server_tools
+[2.017s] Installing training_result_listener script to /home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/server_tools
+[2.017s] 
+[2.017s] Installed /home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools
+[2.017s] running symlink_data
+[2.059s] Invoked command in '/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools' returned '0': AMENT_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces LD_LIBRARY_PATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/server_tools/lib/python3.8/site-packages:/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces/lib/python3.9/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/paranavision/ros2_ws/QPath_ROS2_ws/build/server_tools/build --no-deps symlink_data

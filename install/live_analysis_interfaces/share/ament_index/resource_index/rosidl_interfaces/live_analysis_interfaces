@@ -1,8 +1,1 @@
-msg/TestModelMsg.idl
-msg/TestModelMsg.msg
-msg/TestResultMsg.idl
-msg/TestResultMsg.msg
-msg/TrainAlgorithmMsg.idl
-msg/TrainAlgorithmMsg.msg
-msg/TrainResultMsg.idl
-msg/TrainResultMsg.msg
+/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/live_analysis_interfaces

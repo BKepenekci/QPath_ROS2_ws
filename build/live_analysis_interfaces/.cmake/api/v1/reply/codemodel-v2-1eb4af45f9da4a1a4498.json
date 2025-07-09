@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "live_analysis_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces/live_analysis_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "live_analysis_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_live_analysis_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_live_analysis_interfaces_egg-b85da9379e753f892023.json",
+					"name" : "ament_cmake_python_build_live_analysis_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_live_analysis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_live_analysis_interfaces-c82878a6fa965317098b.json",
+					"name" : "ament_cmake_python_symlink_live_analysis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces-1b1b23cfaec704a92a67.json",
+					"name" : "live_analysis_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__cpp-8ec3ce6173124f5fedea.json",
+					"name" : "live_analysis_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "live_analysis_interfaces__py::@f601a92f10362b7ae90a",
+					"jsonFile" : "target-live_analysis_interfaces__py-94b5ad82d25f3c9ea5b6.json",
+					"name" : "live_analysis_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_generator_c-6df576ed8e585d4b1ba1.json",
+					"name" : "live_analysis_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_generator_py-1f5d4e45a779a78f01d5.json",
+					"name" : "live_analysis_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_c-86fa5bb66f8341742808.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_c__pyext-0f17e1583934ccad4293.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_cpp-049437da5e0e619d7531.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_fastrtps_c-589965e5e38c37361634.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_fastrtps_c__pyext-4ae1c667efa4c5aa6d7f.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp-927719832aa404585e1f.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_introspection_c-f74fe95686155d869b40.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_introspection_c__pyext-23984753e174e7bcf9e4.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces__rosidl_typesupport_introspection_cpp-abe763546f76f430d814.json",
+					"name" : "live_analysis_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "live_analysis_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-live_analysis_interfaces_uninstall-10c3f1ce5aaa36b7188b.json",
+					"name" : "live_analysis_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c3564a6d407d5fd02051.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces",
+		"source" : "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

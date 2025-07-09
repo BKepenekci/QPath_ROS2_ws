@@ -1,0 +1,1 @@
+/home/paranavision/ros2_ws/QPath_ROS2_ws/build/anomaly_detector/launch/yolo_detector.launch.py

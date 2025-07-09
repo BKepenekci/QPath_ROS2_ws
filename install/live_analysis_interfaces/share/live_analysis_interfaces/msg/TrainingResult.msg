@@ -1,0 +1,1 @@
+/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces/msg/TrainingResult.msg

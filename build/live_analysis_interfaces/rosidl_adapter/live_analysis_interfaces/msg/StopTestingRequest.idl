@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from live_analysis_interfaces/msg/StopTestingRequest.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module live_analysis_interfaces {
+  module msg {
+    struct StopTestingRequest {
+      std_msgs::msg::Header header;
+
+      string user_id;
+
+      string model_id;
+
+      string test_id;
+    };
+  };
+};

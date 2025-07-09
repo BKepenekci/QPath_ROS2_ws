@@ -1,0 +1,3 @@
+[console_scripts]
+ip_capture_node = camera_control.ip_capture_node:main
+ptz_node = camera_control.ptz_node:main

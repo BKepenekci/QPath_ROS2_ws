@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from live_analysis_interfaces/msg/TrainRequestClient.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+
+module live_analysis_interfaces {
+  module msg {
+    struct TrainRequestClient {
+      std_msgs::msg::Header header;
+
+      string user_id;
+
+      string algorithm_id;
+
+      string model_id;
+
+      int32 epochs;
+
+      float min_accuracy;
+
+      int32 batch_size;
+
+      boolean use_detection;
+
+      boolean use_label;
+
+      string data_class;
+
+      sequence<sensor_msgs::msg::Image> train_images;
+
+      sequence<sensor_msgs::msg::Image> eval_images;
+
+      sequence<string> class_labels;
+
+      sequence<float> rectangles;
+
+      boolean files_completed;
+
+      int32 seq_no;
+    };
+  };
+};

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from live_analysis_interfaces/msg/TestRequestClient.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+
+module live_analysis_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "TestModelMsg.msg")
+    struct TestRequestClient {
+      std_msgs::msg::Header header;
+
+      string id;
+
+      string model_id;
+
+      string model_path;
+
+      string yolo_path;
+
+      boolean with_bounding_box;
+
+      float area_th;
+
+      float confidance_th;
+
+      sequence<sensor_msgs::msg::Image> images;
+
+      sequence<string> image_paths;
+    };
+  };
+};

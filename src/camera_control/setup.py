@@ -9,7 +9,7 @@ setup(
     data_files=[
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/camera_control.launch.py']),
-        ('share/' + package_name + '/resource', ['resource/' + package_name]),
+        #('share/' + package_name + '/resource', ['resource/' + package_name]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

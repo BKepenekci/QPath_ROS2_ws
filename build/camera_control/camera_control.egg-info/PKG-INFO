@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: camera_control
+Version: 0.1.0
+Summary: ROS 2 package for Hikvision IP camera streaming and PTZ control
+Maintainer: Burcu
+Maintainer-email: burcu@example.com
+License: MIT
+Requires-Dist: setuptools

@@ -1,4 +1,10 @@
-from live_analysis_interfaces.msg._test_model_msg import TestModelMsg  # noqa: F401
-from live_analysis_interfaces.msg._test_result_msg import TestResultMsg  # noqa: F401
-from live_analysis_interfaces.msg._train_algorithm_msg import TrainAlgorithmMsg  # noqa: F401
-from live_analysis_interfaces.msg._train_result_msg import TrainResultMsg  # noqa: F401
+from live_analysis_interfaces.msg._stop_testing_request import StopTestingRequest  # noqa: F401
+from live_analysis_interfaces.msg._stop_training_request import StopTrainingRequest  # noqa: F401
+from live_analysis_interfaces.msg._test_done import TestDone  # noqa: F401
+from live_analysis_interfaces.msg._test_progress import TestProgress  # noqa: F401
+from live_analysis_interfaces.msg._test_request import TestRequest  # noqa: F401
+from live_analysis_interfaces.msg._test_request_client import TestRequestClient  # noqa: F401
+from live_analysis_interfaces.msg._test_result import TestResult  # noqa: F401
+from live_analysis_interfaces.msg._train_request import TrainRequest  # noqa: F401
+from live_analysis_interfaces.msg._train_request_client import TrainRequestClient  # noqa: F401
+from live_analysis_interfaces.msg._training_result import TrainingResult  # noqa: F401

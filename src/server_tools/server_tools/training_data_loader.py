@@ -15,7 +15,8 @@ class TrainingDataLoader(Node):
     def __init__(self):
         super().__init__('training_data_loader')
         self.bridge = CvBridge()
-
+        
+        self.initialize_db_connection()
         self.subscription = self.create_subscription(
             TrainRequest,
             'training_requests',
@@ -23,53 +24,43 @@ class TrainingDataLoader(Node):
             10
         )       
 
-        self.db_conn = self.connect_db()
+        
         self.get_logger().info("🚀 TrainingDataLoader node started.")
-
-    def connect_db(self):
+    
+    def initialize_db_connection(self):
         try:
-            conn = psycopg2.connect(
+            self.db_conn = psycopg2.connect(
                 dbname=os.environ.get("DB_NAME", "qpath_industrial_db"),
                 user=os.environ.get("DB_USER", "parana"),
                 password=os.environ.get("DB_PASS", "NJnTOk0bnb27nc8NeBtDRovfAND1gzy4"),
                 host=os.environ.get("DB_HOST", "dpg-d1f89e6mcj7s739hflr0-a.oregon-postgres.render.com"),
                 port=os.environ.get("DB_PORT", "5432")
             )
-            self.get_logger().info("✅ Connected to PostgreSQL.")
-            return conn
-        except Exception as e:
-            self.get_logger().error(f"❌ DB connection failed: {e}")
-            return None
+            self.cursor = self.db_conn.cursor()
+        except psycopg2.Error as e:
+            self.get_logger().error(f"Database connection failed: {e}")
+            raise
+       
 
     def fetch_image_paths_and_rectangles(self, user_id, data_class, mode='train'):
-        if not self.db_conn:
-            self.get_logger().error("No database connection.")
+        try:
+            query = '''
+                SELECT file_path, rectangle_data 
+                FROM media_files 
+                WHERE user_id = %s AND "dataClass" = %s AND file_path LIKE %s
+            '''
+            like_filter = f'{mode}%'
+            
+            with self.connection.cursor() as cursor:
+                cursor.execute(query, (user_id, data_class, like_filter))
+                return cursor.fetchall()
+                
+        except psycopg2.Error as e:
+            self.get_logger().error(f"Database error: {e}")
             return []
-
-        cursor = self.db_conn.cursor()
-        if mode == 'train':
-            like_filter = f'{data_class}_train%'
-        else:
-            like_filter = f'{data_class}_test%'
-
-        query = """
-        SELECT file_path, rectangles FROM media_files
-        WHERE user_id = %s AND data_class = %s AND filename ILIKE %s
-        """
-        cursor.execute(query, (user_id, data_class, like_filter))
-        rows = cursor.fetchall()
-
-        # Returns list of tuples: [(path1, rects1), (path2, rects2), ...]
-        result = []
-        for file_path, rectangles_json in rows:
-            try:
-                rectangles = json.loads(rectangles_json) if rectangles_json else []
-            except Exception as e:
-                self.get_logger().warn(f"Invalid rectangles for {file_path}: {e}")
-                rectangles = []
-            result.append((file_path, rectangles))
-
-        return result
+        except Exception as e:
+            self.get_logger().error(f"Unexpected error: {e}")
+            return []
     
     def fetch_device_name(self, user_id, gpu):
         if not self.db_conn:
@@ -143,10 +134,12 @@ class TrainingDataLoader(Node):
                     self.get_logger().warn(f"Failed to read {path}: {e}")
 
         device_name=self.fetch_device_name(msg.user_id, msg.gpu)
+        if(device_name is None):
+            device_name = 'default_device'
         if(msg.use_detection):
-            self.publisher = self.create_publisher(TrainRequestClient, device_name+'\client_training_requests_wo', 10)
+            self.publisher = self.create_publisher(TrainRequestClient, f"{device_name}/client_training_requests_wo", 10)            
         else: 
-            self.publisher = self.create_publisher(TrainRequestClient, device_name+'\client_training_requests', 10)
+            self.publisher = self.create_publisher(TrainRequestClient, f"{device_name}/client_training_requests", 10)
         # Prepare new message
         new_msg = TrainRequestClient()
         new_msg.header.stamp = self.get_clock().now().to_msg()
@@ -161,8 +154,7 @@ class TrainingDataLoader(Node):
         new_msg.data_class = msg.data_class
         new_msg.train_images = train_imgs
         new_msg.eval_images = eval_imgs
-        new_msg.train_set_labels = []
-        new_msg.eval_set_labels = []
+        new_msg.class_labels = []        
         new_msg.rectangles = [float(x) for x in all_rectangles]  # Flattened float list
         new_msg.files_completed = True
         new_msg.seq_no = 1

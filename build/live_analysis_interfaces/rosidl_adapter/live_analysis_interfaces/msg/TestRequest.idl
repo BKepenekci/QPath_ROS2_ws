@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from live_analysis_interfaces/msg/TestRequest.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module live_analysis_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "TestModelMsg.msg")
+    struct TestRequest {
+      std_msgs::msg::Header header;
+
+      string id;
+
+      string user_id;
+
+      string model_id;
+
+      boolean with_bounding_box;
+
+      uint32 gpu;
+
+      float area_th;
+
+      float confidance_th;
+
+      sequence<string> image_paths;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/paranavision/ros2_ws/QPath_ROS2_ws/src/live_analysis_ros2/launch/analysis_node.launch.py

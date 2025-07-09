@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>live_analysis_ros2</name>
+  <name>anomaly_detector</name>
   <version>0.1.0</version>
   <description>Live analysis node with SimpleNet and YOLO for ROS 2</description>
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/burcu/ros2_ws/build/live_analysis_interfaces/live_analysis_interfaces__py
+# Install script for directory: /home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces/live_analysis_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/burcu/ros2_ws/install/live_analysis_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/paranavision/ros2_ws/QPath_ROS2_ws/install/live_analysis_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,10 +35,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 

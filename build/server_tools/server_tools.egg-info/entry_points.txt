@@ -1,0 +1,5 @@
+[console_scripts]
+test_data_loader = server_tools.test_data_loader:main
+test_result_saver = server_tools.test_result_saver:main
+training_data_loader = server_tools.training_data_loader:main
+training_result_listener = server_tools.training_result_listener:main

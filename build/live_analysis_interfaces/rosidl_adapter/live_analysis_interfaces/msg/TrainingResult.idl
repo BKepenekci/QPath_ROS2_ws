@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from live_analysis_interfaces/msg/TrainingResult.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module live_analysis_interfaces {
+  module msg {
+    struct TrainingResult {
+      std_msgs::msg::Header header;
+
+      string user_id;
+
+      string algorithm_id;
+
+      string model_id;
+
+      float total_time;
+
+      int32 total_patches;
+
+      float loss;
+
+      float duration;
+
+      int32 epochs;
+
+      int32 current_epoch;
+
+      string msg_txt;
+
+      boolean training_completed;
+
+      boolean stopped;
+    };
+  };
+};

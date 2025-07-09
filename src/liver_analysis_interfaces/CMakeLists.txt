@@ -17,6 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrainingResult.msg"
   "msg/TestDone.msg"
   "msg/TestProgress.msg"  
+  "msg/StopTrainingRequest.msg"  
+  "msg/StopTestingRequest.msg"  
   DEPENDENCIES std_msgs sensor_msgs builtin_interfaces
 )
 

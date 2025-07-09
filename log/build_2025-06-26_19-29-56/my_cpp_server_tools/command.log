@@ -1,6 +1,0 @@
-Invoking command in '/home/burcu/ros2_ws/build/my_cpp_server_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/burcu/ros2_ws/src/my_cpp_server_tools -DCMAKE_INSTALL_PREFIX=/home/burcu/ros2_ws/install/my_cpp_server_tools
-Invoked command in '/home/burcu/ros2_ws/build/my_cpp_server_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/burcu/ros2_ws/src/my_cpp_server_tools -DCMAKE_INSTALL_PREFIX=/home/burcu/ros2_ws/install/my_cpp_server_tools
-Invoking command in '/home/burcu/ros2_ws/build/my_cpp_server_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/burcu/ros2_ws/build/my_cpp_server_tools -- -j22 -l22
-Invoked command in '/home/burcu/ros2_ws/build/my_cpp_server_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/burcu/ros2_ws/build/my_cpp_server_tools -- -j22 -l22
-Invoking command in '/home/burcu/ros2_ws/build/my_cpp_server_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/burcu/ros2_ws/build/my_cpp_server_tools
-Invoked command in '/home/burcu/ros2_ws/build/my_cpp_server_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/burcu/ros2_ws/build/my_cpp_server_tools

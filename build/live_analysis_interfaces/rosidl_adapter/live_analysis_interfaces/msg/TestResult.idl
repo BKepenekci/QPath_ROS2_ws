@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from live_analysis_interfaces/msg/TestResult.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+
+module live_analysis_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "TestResult.msg")
+    struct TestResult {
+      std_msgs::msg::Header header;
+
+      string user_id;
+
+      string model_id;
+
+      boolean ok;
+
+      sensor_msgs::msg::Image heatmap;
+
+      sensor_msgs::msg::Image mask;
+
+      @verbatim (language="comment", text=
+        "[x1, y1, w1, h1, x2, y2, w2, h2, ...]")
+      sequence<int32> bboxes;
+
+      sequence<float> confidences;
+
+      sequence<boolean> ok_list;
+
+      string image_path;
+
+      int32 percent_done;
+    };
+  };
+};

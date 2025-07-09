@@ -1,9 +1,15 @@
 {
   "package_name": "live_analysis_interfaces",
   "non_idl_tuples": [
-    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TestModelMsg.msg",
-    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TestResultMsg.msg",
-    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TrainAlgorithmMsg.msg",
-    "/home/burcu/ros2_ws/src/liver_analysis_interfaces:msg/TrainResultMsg.msg"
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TestRequest.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TestRequestClient.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TestResult.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TrainRequest.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TrainRequestClient.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TrainingResult.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TestDone.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/TestProgress.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/StopTrainingRequest.msg",
+    "/home/paranavision/ros2_ws/QPath_ROS2_ws/src/liver_analysis_interfaces:msg/StopTestingRequest.msg"
   ]
 }

@@ -1,0 +1,1 @@
+/home/paranavision/ros2_ws/QPath_ROS2_ws/build/camera_control/launch/camera_control.launch.py

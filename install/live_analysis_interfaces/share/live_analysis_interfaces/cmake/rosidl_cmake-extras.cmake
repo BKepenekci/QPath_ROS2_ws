@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(live_analysis_interfaces_IDL_FILES "msg/TestModelMsg.idl;msg/TestResultMsg.idl;msg/TrainAlgorithmMsg.idl;msg/TrainResultMsg.idl")
-set(live_analysis_interfaces_INTERFACE_FILES "msg/TestModelMsg.msg;msg/TestResultMsg.msg;msg/TrainAlgorithmMsg.msg;msg/TrainResultMsg.msg")
+/home/paranavision/ros2_ws/QPath_ROS2_ws/build/live_analysis_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake
